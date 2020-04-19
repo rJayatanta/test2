@@ -1,0 +1,222 @@
+body {
+	background-color: black;
+}
+
+.navbar {
+	overflow: hidden;
+	position: fixed;
+	top: 0;
+	width: 105%;
+	font-weight: 300;
+	background-color: black;
+	font-family:courier;
+}
+.navbar a {
+	float: left;
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+}
+
+.navbar a:hover {
+	color: white;
+	background-color: black;
+	font-weight: 900;
+}
+
+.main {
+	padding-top: 5px;
+	margin-top: 30px;
+	color: white;
+	font-family: verdana;
+}
+
+.main2 {
+	color: white;
+	font-family: verdana;
+	text-align: center;
+	font-size: 20px;
+}
+.main3 {
+	color: white;
+	font-family: verdana;
+	font-size: 20px;
+}
+.home {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+	color: white;
+	font-weight: 900;
+	font-size: 50px;
+}
+
+.top-center {
+	position: absolute;
+	top: 20%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+	color: white;
+	font-weight: 900;
+	font-size: 50px;
+}
+
+.div1{
+	color: white;
+	clear: left;
+	font-size: 30px;
+	margin-left: 250px;
+	margin-right: 250px;
+}
+
+#internetPrice {
+	margin-top: 48px;
+	font-family: verdana;
+	border-collapse: collapse;
+	width: 100%;
+	background-color: grey;
+}
+
+#internetPrice td, #internetPrice th {
+	border: 1px solid #ddd;
+	padding: 8px;
+}
+
+#internetPrice tr:nth-child(even){background-color: white;}
+
+#internetPrice tr:hover {background-color: lightblue; color: black;}
+
+#internetPrice th {
+	margin-top: 111px;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	text-align: left;
+	background-color: grey;
+	color: white;
+}
+.centered {
+	position: absolute;
+	top: 30%;
+	left: 20%;
+	transform: translate(-50%, -50%);
+	color: white;
+	font-size: 50px;
+}
+
+.column {
+	float: left;
+	width: 33.33%;
+	padding: 0px;
+	margin-top: 20px;
+	
+}
+
+.row::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+.slideshow-container {
+	max-width: 1000px;
+	position: relative;
+	margin: auto;
+	padding-top: 100px;
+}
+
+.prev, .next {
+	cursor: pointer;
+	position: absolute;
+	top: 50%;
+	width: auto;
+	padding: 16px;
+	margin-top: 22px;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	transition: 0.6s ease;
+	border-radius: 0 3px 3px 0;
+	user-select: none;
+}
+
+.next {
+	right: 0;
+	border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+	background-color: rgba(0,0,0,0.8);
+}
+
+.text {
+	color: #f2f2f2;
+	font-size: 15px;
+	padding: 8px 12px;
+	position: absolute;
+	bottom: 8px;
+	width: 100%;
+	text-align: center;
+}
+
+.numbertext {
+	color: #f2f2f2;
+	font-size: 12px;
+	padding: 8px 12px;
+	position: absolute;
+	top: 0;
+}
+
+.dot {
+	cursor: pointer;
+	height: 15px;
+	width: 15px;
+	margin: 0 2px;
+	background-color: #bbb;
+	border-radius: 50%;
+	display: inline-block;
+	transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+.fade {
+	-webkit-animation-name: fade;
+	-webkit-animation-duration: 1.5s;
+	animation-name: fade;
+	animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+	from {opacity: .4} 
+	to {opacity: 1}
+}
+
+@keyframes fade {
+	from {opacity: .4} 
+	to {opacity: 1}
+}
+
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+.testtext{
+	position: absolute;
+	top: 30%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+}
